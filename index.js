@@ -8,6 +8,8 @@ function diceRoll(){
     document.querySelector(".img2").src="images/dice" + randomNum2 + ".png";
     document.querySelector(".btn1").innerHTML="";
     document.querySelector(".restart").style.visibility="visible";
+    document.querySelector(".btn").innerHTML="Again!";
+
 
   }
   else{
