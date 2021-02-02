@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  display: absolute;
+  padding: 0;
+  margin: 0;
+  background-color:#001427;
+
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.container2{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.dice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2%;
+}
+.dice p{
+  color: #f4d58d;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.dice input{
+  background-color: #f4d58d;
+  color: #001427;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 0;
+  border-radius: 25px;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 20px;
+}
+.btn{
+  width: 256px;
+  height: 50px;
+  border:0;
+  border-radius: 25px;
+  background-color: #f4d58d;
+  color: #001427;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+}
+.btn:hover{
+  width: 256px;
+  height: 50px;
+  border:3px solid #f4d58d ;
+  border-radius: 25px;
+  background-color: #001427;
+  color: #f4d58d ;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+}
+.btn1{
+  color:#f4d58d;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1rem;
+  margin-top: 15px;
+
+}
+.restart{
+  width: 256px;
+  height: 50px;
+  border:0;
+  border-radius: 25px;
+  background-color: #f4d58d;
+  color: #001427;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  visibility: hidden;
+}
+.restart:hover{
+  width: 256px;
+  height: 50px;
+  border:3px solid #f4d58d ;
+  border-radius: 25px;
+  background-color: #001427;
+  color: #f4d58d ;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+
+}
+
+h1{
+  color: #f4d58d;
+  font-family: 'Indie Flower', cursive;
+  font-size: 4rem;
+  box-sizing:border-box;
+  padding: 2% 0;
+  height: 15%;
+}
